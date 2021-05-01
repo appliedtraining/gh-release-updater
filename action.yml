@@ -1,4 +1,4 @@
-name: "✏️ Github release updater"
+name: "Github release updater"
 description: "Updates Gtihub release information"
 inputs:
   repo_token:
