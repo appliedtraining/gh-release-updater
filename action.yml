@@ -1,0 +1,12 @@
+name: "✏️ Github release updater"
+description: "Updates Gtihub release information"
+inputs:
+  repo_token:
+    required: true
+    description: "Github token"
+  release_id:
+    description: "Release ID"
+    required: false
+runs:
+  using: docker
+  image: 'Dockerfile'
